@@ -16,7 +16,7 @@ import AdminMenuPage from "./pages/AdminMenuPage";
 import AdminCategoryPage from "./pages/AdminCategoryPage";
 import AdminRoute from "./components/AdminRoute";
 import ProfilePage from "./pages/ProfilePage";
-import CheckoutPage from "./pages/CheckoutPage";
+import CheckoutPage from "./pages/checkoutPage";
 import AdminUsersPage from "./pages/AdminUserPage";
 
 
