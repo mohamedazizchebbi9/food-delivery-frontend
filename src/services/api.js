@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:8080"
+    baseURL: import.meta.env.VITE_API_URL || "https://food-delivery-backend-rd7h.onrender.com"
 });
 
 api.interceptors.request.use(config => {
